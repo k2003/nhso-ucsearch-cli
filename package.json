@@ -1,0 +1,28 @@
+{
+  "name": "ucsearch-cli",
+  "version": "1.0.0",
+  "description": "A command-line search by CID from NHSO UCSeach webservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somprasongd/nhso-ucsearch-cli.git"
+  },
+  "keywords": [],
+  "author": "Somprasong Damyos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somprasongd/nhso-ucsearch-cli/issues"
+  },
+  "homepage": "https://github.com/somprasongd/nhso-ucsearch-cli#readme",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "soap": "^0.24.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ucsearch": "./bin/ucsearch/index.js"
+  }
+}
